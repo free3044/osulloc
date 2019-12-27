@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* ==header style== */
+#wrap{width:100%;margin:0 auto;}
+.container{width:66.66666666666667%;margin:0 auto;position: relative;}
+header{width:100%;height: 120px;background:#9ccf71;}
+.logo{position: absolute;left:0;top:30px;}
+.logo>h1{display:none;}
+.logo img{padding:10px;}
+.login{float: right;margin-top: 10px;}
+.login>a{font-size: 12px;color:white;padding-left: 10px;}
+nav{width:33.33333333333333%;}
+.gnb_menu{display:flex;justify-content:flex-start;width:640px;}
+.gnb_menu>li{padding-left: 30px; font-size: 18px;color:#fff;}
+.gnb_icon{position: absolute;right:0;top:0;width:150px;}
+.gnb_icon>li{padding-left: 30px;}
+
+/* ==banner style== */
+.swiper-container {width: 100%;height: 100%;}
+.banner_img{height: 550px;}
+.banner_img h2::after{display: block;content: "";width:50px;height: 2px;margin: 14px auto;background: #fff;}
+#banner_img01{background: url(../images/main_banner01.jpg) no-repeat center center;background-size: cover;}
+#banner_img02{background: url(../images/main_banner02.jpg) no-repeat center center;background-size: cover;}
+#banner_img03{background: url(../images/main_banner03.jpg) no-repeat center center;background-size: cover;}
+.banner_img>.ban_txt01,.ban_txt02,.ban_tit{color:white;text-align: center;}
+.ban_txt01{font-size: 24px;font-weight: 400;padding-bottom: 10px;}
+.ban_txt02{font-size: 24px;font-weight: 400;padding-bottom: 10px;}
+.ban_tit{font-size: 42px;font-weight: bold;padding-bottom: 10px;font-family: 'Nanum Myeongjo', serif;}
+
+/* ==weekly best style== */
+.weekly_best{margin-top: 80px;}
+.weekly_best>h1{font-size: 40px;}
+.tea_list{display:flex;}
+.tea_list>li{padding-right: 80px;}
+.right_txt{display:flex;justify-content: flex-end;}
+.right_txt>li::after{padding:0 10px;content: "|";color:#727272;vertical-align: top;}
+.right_txt>li:last-child::after{content: "";}
+.right_txt>li>a{font-size: 20px;}
+
+/* ==MD's pick style== */
+.mds_pick{position: relative;margin-top: 80px;}
+.mds_pick>h1{font-size: 40px;}
+.mds_pick h3{font-size: 24px;font-weight: bold;color:black;}
+.mds_pick span{font-size: 40px;font-weight: bold;}
+.mds_pick p{font-size: 18px;color:#727272;line-height: 32px;}
+.mds_pick .more{margin: 20px 0;}
+.mds_pick .new_more{font-size: 24px;font-weight: bold;}
+.mds_pick .new_more::after{content: url(../images/arrow_icon.png);padding-left: 5px;}
+.pick_list{display:flex;justify-content: space-between;width:50%;}
+.pick_list>img{position: absolute;right: 0;top:0;}
+
+/* ==tea ware shop style== */
+.tea_ware_shop{position: relative;margin-top: 80px;}
+.tea_ware_shop h1{font-size: 40px;}
+.tea_ware_shop p{font-size: 18px;color:#727272;line-height: 32px;}
+.tea_ware_shop .new_more{font-size: 24px;font-weight: bold;}
+.tea_ware_shop .new_more::after{content: url(../images/arrow_icon.png);padding-left: 5px;}
+.tea_ware_shop .txt_box{float: left;}
+.tea_ware_shop .ban_box{float: right;width:75%;position: relative;}
+.tea_ware_shop .ban_box .r_ban02{position: absolute;right:280px;top:6px;padding-left: 30px;width:25%;}
+.tea_ware_shop .ban_box .r_ban01>img{padding-bottom: 12px;}
+.tea_ware_shop .ban_box .r_ban02>img{padding-bottom: 12px;}
+
+/* ==sale style== */
+.sale{margin-top: 80px;}
+.sale h1{font-size: 40px;}
+.sale p{font-size: 18px;color:#727272;line-height: 32px;}

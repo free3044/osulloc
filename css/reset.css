@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+body,h1,h2,h3,h4,h5,h6,p,a,header,section,nav,footer,
+div,span,img,ul,ol,li{
+    margin:0;
+    padding:0;
+    border:none;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+ul,ol,li{list-style: none;}
+a{text-decoration: none;color:black;}
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+.clearfix::after{display:block;content:"";clear: both;}
